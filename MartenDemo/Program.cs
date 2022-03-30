@@ -37,7 +37,6 @@ namespace MartenDemo
 
         public Guid Id { get; set; }
 
-        // These methods take in events and update the QuestParty
         public void Apply(ItemAdded added)
         {
             this.AddedEvents++;
