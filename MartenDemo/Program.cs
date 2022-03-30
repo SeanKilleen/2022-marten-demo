@@ -84,7 +84,7 @@ namespace MartenDemo
                 await session.SaveChangesAsync();
 
                 Console.WriteLine("Rehydrating");
-                var rehydratedItem = await session.Events.LoadAsync<InventoryItemAggregate>(streamId1);
+                var rehydratedItem = session.Events.AggregateStream<InventoryItemAggregate>(streamId1);
 
                 Console.WriteLine(rehydratedItem.ToString());
             }
