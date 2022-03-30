@@ -1,5 +1,7 @@
 # 2022-marten-demo
 
+A tiny one-off demo to roughly show the functionality of Marten.
+
 Quick Postgresql image:
 
 `docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres`
