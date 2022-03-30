@@ -21,6 +21,5 @@ namespace MartenDemo
                 services.AddHostedService<DemoService>();
             }).RunConsoleAsync();
         }
-
     }
 }
