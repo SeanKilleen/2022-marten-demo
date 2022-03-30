@@ -1,2 +1,5 @@
 # 2022-marten-demo
- A quick demo of Marten .NET for Excella monthly meeting
+
+Quick Postgresql image:
+
+`docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres`
